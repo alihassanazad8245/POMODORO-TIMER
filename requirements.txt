@@ -1,0 +1,8 @@
+# Pomodoro Timer - dependencies
+# Install with:  pip install -r requirements.txt
+
+rich>=13.7,<16.0                           # terminal rendering
+
+# Real Windows toast notifications (installed automatically on Windows only;
+# on other platforms the timer falls back to a terminal alert + bell):
+winotify>=1.1,<2.0; sys_platform == "win32"
