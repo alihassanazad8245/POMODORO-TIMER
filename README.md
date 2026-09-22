@@ -118,9 +118,6 @@ for any reason, the app falls back to a terminal alert + bell instead.
 
 ## Screenshots
 
-> Save images in `docs/screenshots/` with these exact filenames (lowercase,
-> `.png`) and they'll appear automatically: `mkdir -p docs/screenshots`
-
 ### Live timer
 
 <!-- SCREENSHOT 2 — Run: python main.py --start --label "Deep work"
